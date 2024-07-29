@@ -10,7 +10,7 @@ const NodeCache = require("node-cache");
 const chalk = require("chalk");
 const readline = require("readline");
 
-let phoneNumber = "2349066528353"; // Declare the default phone number if needed
+let phoneNumber = "254759245741"; // Declare the default phone number if needed
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code");
 const useMobile = process.argv.includes("--mobile");
